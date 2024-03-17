@@ -38,7 +38,7 @@ menu "CALalarm"
 
     config CALALARM_GAS_CALENDAR_URL
         string "Google script uri"
-        default "https://script.google.com/macros/s/YOUR_UNIQUE_ID/exec"
+        default "https://script.google.com/macros/s/AKfycbxUCeuJ-3zzj4vZ9YgXVUE5x-sbgn2rLuAEdfCg-T0_vNX3EFa5GuqQgicf0uN7OeDSNQ/exec"
         help
             Public URL of the Google Apps script that supplies JSON of the
             calendar events.
@@ -57,14 +57,14 @@ menu "CALalarm"
             Use a hardcoded Wi-Fi credentials. Defaults to n for BLE provisioning.
             
     config CALALARM_HARDCODED_WIFI_SSID
-        string "WiFi SSID"
+        string "My yex ar"
         default ""
         depends on CALALARM_HARDCODED_WIFI_CREDENTIALS
         help
             SSID (network name).
 
     config CALALARM_HARDCODED_WIFI_PASSWD
-        string "WiFi Password"
+        string "145301wifi"
         default ""
         depends on CALALARM_HARDCODED_WIFI_CREDENTIALS
         help
